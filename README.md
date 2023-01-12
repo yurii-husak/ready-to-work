@@ -2,6 +2,7 @@
 
 ## Required to install
 
+- Slack ([Download](https://slack.com/downloads/windows))
 - PHPStorm ([Download](https://www.jetbrains.com/phpstorm/download/))
 - GIT ([Download](https://git-scm.com/downloads))
 - NodeJS (16.*) ([Download](https://nodejs.org/en/blog/release/v16.16.0/))
