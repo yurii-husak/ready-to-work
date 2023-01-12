@@ -3,6 +3,7 @@
 ## Required to install
 
 - PHPStorm ([Download](https://www.jetbrains.com/phpstorm/download/))
+- GIT ([Download](https://git-scm.com/downloads))
 - NodeJS (16.*) ([Download](https://nodejs.org/en/blog/release/v16.16.0/))
 - Yarn (run the code below via cmd, PowerShell or git bash)
 
