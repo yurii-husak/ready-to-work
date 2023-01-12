@@ -28,8 +28,6 @@ npm install --global yarn
 
 - Ubuntu (v 22) ([Download](https://apps.microsoft.com/store/detail/ubuntu-22041-lts/9PN20MSR04DW?hl=uk-ua&gl=ua&rtc=1))
 
-*Or you can download it via Microsoft Store
-
 ### Ubuntu - Required to install
 
 - NodeJS (run the code below)
