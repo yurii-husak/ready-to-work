@@ -14,6 +14,12 @@ npm install --global yarn
 - PHP (7.4.*) ([Download](https://windows.php.net/download/))
 - Composer ([Download](https://getcomposer.org/download/))
 
+## Prepare Windows
+
+- Press `Win + R`
+- Enter `optionalfeatures.exe`
+- Enable: `Hyper-V` and `Windows Subsystem for Linux`
+
 ## Prepare PHPStorm
 
 -  PHPStorm Settings ([Download](https://www.apachefriends.org/download.html))
