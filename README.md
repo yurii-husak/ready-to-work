@@ -1,7 +1,5 @@
 # Ready to work
 
-***
-
 ## Required to install
 
 - PHPStorm ([Download](https://www.jetbrains.com/phpstorm/download/))
@@ -16,8 +14,6 @@ npm install --global yarn
 - PHP (7.4.*) ([Download](https://windows.php.net/download/))
 - Composer ([Download](https://getcomposer.org/download/))
 
-***
-
 ## Prepare PHPStorm
 
 -  PHPStorm Settings ([Download](https://www.apachefriends.org/download.html))
@@ -27,8 +23,6 @@ npm install --global yarn
 ### Recommended plugins
 
 - *coming soon...*
-
-***
 
 ## Prepare Ubuntu 
 
@@ -42,13 +36,21 @@ npm install --global yarn
 
 ```bash
 sudo apt update
+```
 
+```bash
 curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh
+```
 
+```bash
 sudo bash /tmp/nodesource_setup.sh
+```
 
+```bash
 sudo apt install nodejs
+```
 
+```bash
 node -v
 ```
 
@@ -58,11 +60,17 @@ node -v
 
 ```bash
 sudo apt update
+```
 
+```bash
 sudo apt install yarn
+```
 
+```bash
 sudo apt install --no-install-recommends yarn
+```
 
+```bash
 yarn --version
 ```
 
@@ -72,17 +80,29 @@ yarn --version
 
 ```bash
 sudo apt-get update
+```
 
+```bash
 sudo apt -y install software-properties-common
+```
 
+```bash
 sudo add-apt-repository ppa:ondrej/php
+```
 
+```bash
 sudo apt-get update
+```
 
+```bash
 sudo apt -y install php7.4
+```
 
+```bash
 sudo apt-get install -y php7.4-cli php7.4-json php7.4-common php7.4-mysql php7.4-zip php7.4-gd php7.4-mbstring php7.4-curl php7.4-xml php7.4-bcmath
+```
 
+```bash
 php -v
 ```
 
@@ -92,15 +112,25 @@ php -v
 
 ```bash
 sudo apt update
+```
 
+```bash
 curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
+```
 
+```bash
 HASH=`curl -sS https://composer.github.io/installer.sig`
+```
 
+```bash
 php -r "if (hash_file('SHA384', '/tmp/composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+```
 
+```bash
 sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
+```
 
+```bash
 composer --version
 ```
 
