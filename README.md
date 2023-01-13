@@ -6,7 +6,7 @@
 - PHPStorm ([Download](https://www.jetbrains.com/phpstorm/download/))
 - GIT ([Download](https://git-scm.com/downloads))
 - NodeJS (16.*) ([Download](https://nodejs.org/en/blog/release/v16.16.0/))
-- Yarn (run the code below via cmd, PowerShell or git bash)
+- Yarn (run the code below via terminal)
 
 ```bash
 npm install --global yarn 
@@ -21,6 +21,22 @@ npm install --global yarn
 - Press `Win + R`
 - Enter `optionalfeatures.exe`
 - Enable: `Hyper-V` and `Windows Subsystem for Linux`
+
+## GIT Configs
+
+Open terminal and run next commands:
+
+```bash
+git config --global user.name "Your_Name"
+```
+
+```bash
+git config --global user.email your_email@example.com
+```
+
+```bash
+git config --global core.autocrlf input
+```
 
 ## Prepare PHPStorm
 
