@@ -24,13 +24,21 @@ npm install --global yarn
 
 ## Prepare PHPStorm
 
--  PHPStorm Settings ([Download](https://www.apachefriends.org/download.html))
+-  PHPStorm Settings ([Download](https://drive.google.com/file/d/1kfuZdud9IpUVttRpHbsNBUSd2IOad77N/view?usp=sharing))
+-  PHPStorm Live Templates ([Download](https://drive.google.com/file/d/19daA3hBbXU0brvbzG3h3o6CvLaOtg8zp/view?usp=sharing))
 
 *To install PHPStorm setting go to the 'File -> Manage IDE Settings -> Import Settings'*
 
 ### Recommended plugins
 
-- *coming soon...*
+- Atom Material Icons 
+- CodeGlance Pro 
+- Ideolog 
+- Material Theme UI 
+- Material Theme UI Lite 
+- One Dark theme 
+- Rainbow Brackets 
+- Styled Components & Styled JSX
 
 ## Prepare Ubuntu 
 
