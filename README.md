@@ -165,3 +165,15 @@ composer --version
 ```
 
 *For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04)*
+
+- LFTP (run the code below)
+
+```bash
+sudo apt-get update -y
+```
+
+```bash
+sudo apt-get install -y lftp
+```
+
+*For more instructions follow the [link](https://zoomadmin.com/HowToInstall/UbuntuPackage/lftp)*
