@@ -2,19 +2,14 @@
 
 ## Required to install
 
-- Slack ([Download](https://slack.com/downloads/windows))
-- PHPStorm ([Download](https://www.jetbrains.com/phpstorm/download/))
-- GIT ([Download](https://git-scm.com/downloads))
-- NodeJS (16.*) ([Download](https://nodejs.org/en/blog/release/v16.16.0/))
-- Yarn (run the code below via terminal)
-
-```bash
-npm install --global yarn 
-```
-
-- XAMPP ([Download](https://www.apachefriends.org/download.html))
-- PHP (7.4.*) ([Download](https://windows.php.net/download/))
-- Composer ([Download](https://getcomposer.org/download/))
+- Slack | ([Download](https://slack.com/downloads/windows))
+- PHPStorm | ([Download](https://www.jetbrains.com/phpstorm/download/))
+- GIT | ([Download](https://git-scm.com/downloads))
+- NodeJS (16.*) | ([Download](https://nodejs.org/en/blog/release/v16.16.0/))
+- Yarn. Run `npm install --global yarn` in your terminal (CMD, PowerShell or Git Bash)
+- XAMPP | ([Download](https://www.apachefriends.org/download.html))
+- PHP (7.4.*) | ([Download](https://windows.php.net/download/))
+- Composer | ([Download](https://getcomposer.org/download/))
 
 ## Prepare Windows
 
@@ -43,7 +38,7 @@ git config --global core.autocrlf input
 -  PHPStorm Settings ([Download](https://drive.google.com/file/d/1kfuZdud9IpUVttRpHbsNBUSd2IOad77N/view?usp=sharing))
 -  PHPStorm Live Templates ([Download](https://drive.google.com/file/d/19daA3hBbXU0brvbzG3h3o6CvLaOtg8zp/view?usp=sharing))
 
-*To install PHPStorm setting go to the 'File -> Manage IDE Settings -> Import Settings'*
+_To install PHPStorm setting go to the 'File -> Manage IDE Settings -> Import Settings'_
 
 ### Recommended plugins
 
@@ -61,6 +56,18 @@ git config --global core.autocrlf input
 - Ubuntu (v 22) ([Download](https://apps.microsoft.com/store/detail/ubuntu-22041-lts/9PN20MSR04DW?hl=uk-ua&gl=ua&rtc=1))
 
 ### Ubuntu - Required to install
+
+- LFTP (run the code below)
+
+```bash
+sudo apt-get update -y
+```
+
+```bash
+sudo apt-get install -y lftp
+```
+
+_For more instructions follow the [link](https://zoomadmin.com/HowToInstall/UbuntuPackage/lftp)_
 
 - NodeJS (run the code below)
 
@@ -84,7 +91,7 @@ sudo apt install nodejs
 node -v
 ```
 
-*For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)*
+_For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)_
 
 - Yarn (run the code below)
 
@@ -104,7 +111,7 @@ sudo apt install --no-install-recommends yarn
 yarn --version
 ```
 
-*For more instructions follow the [link](https://linuxize.com/post/how-to-install-yarn-on-ubuntu-20-04/)*
+_For more instructions follow the [link](https://linuxize.com/post/how-to-install-yarn-on-ubuntu-20-04/)_
 
 - PHP 7.4 (run the code below)
 
@@ -136,7 +143,7 @@ sudo apt-get install -y php7.4-cli php7.4-json php7.4-common php7.4-mysql php7.4
 php -v
 ```
 
-*For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-php-7-4-and-set-up-a-local-development-environment-on-ubuntu-20-04)*
+_For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-php-7-4-and-set-up-a-local-development-environment-on-ubuntu-20-04)_
 
 - Composer (run the code below)
 
@@ -164,16 +171,4 @@ sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=compose
 composer --version
 ```
 
-*For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04)*
-
-- LFTP (run the code below)
-
-```bash
-sudo apt-get update -y
-```
-
-```bash
-sudo apt-get install -y lftp
-```
-
-*For more instructions follow the [link](https://zoomadmin.com/HowToInstall/UbuntuPackage/lftp)*
+_For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04)_
