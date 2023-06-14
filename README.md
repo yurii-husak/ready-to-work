@@ -175,3 +175,13 @@ composer --version
 ```
 
 _For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04)_
+
+- ZIP (run the code below)
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install zip unzip
+```
