@@ -51,7 +51,6 @@ _To install PHPStorm setting go to the 'File -> Manage IDE Settings -> Import Se
 - Material Theme UI Lite 
 - One Dark theme 
 - Rainbow Brackets 
-- Denigma
 - Styled Components & Styled JSX
 
 ## Prepare Ubuntu 
@@ -100,6 +99,14 @@ _For more instructions follow the [link](https://www.digitalocean.com/community/
 
 ```bash
 sudo apt update
+```
+
+```bash
+sudo apt install curl
+```
+
+```bash
+curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 ```
 
 ```bash
