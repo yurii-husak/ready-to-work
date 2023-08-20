@@ -37,8 +37,7 @@ git config --global core.autocrlf input
 
 ## Prepare PHPStorm
 
--  PHPStorm Settings ([Download](https://drive.google.com/file/d/1kfuZdud9IpUVttRpHbsNBUSd2IOad77N/view?usp=sharing))
--  PHPStorm Live Templates ([Download](https://drive.google.com/file/d/19daA3hBbXU0brvbzG3h3o6CvLaOtg8zp/view?usp=sharing))
+-  PHPStorm Settings (with Live Templates) ([Download](https://drive.google.com/file/d/1XC8nwAMLlSwLr0vGjHoZV0YTEpDN_eJU/view?usp=sharing))
 
 _To install PHPStorm setting go to the 'File -> Manage IDE Settings -> Import Settings'_
 
@@ -54,6 +53,8 @@ _To install PHPStorm setting go to the 'File -> Manage IDE Settings -> Import Se
 - Styled Components & Styled JSX
 
 ## Prepare Ubuntu 
+
+### Ubuntu installation
 
 - Ubuntu (v 22) ([Download](https://apps.microsoft.com/store/detail/ubuntu-22041-lts/9PN20MSR04DW?hl=uk-ua&gl=ua&rtc=1))
 
