@@ -54,28 +54,38 @@ _To install PHPStorm setting go to the 'File -> Manage IDE Settings -> Import Se
 
 ## Prepare Ubuntu 
 
-### Ubuntu installation
+### Contents
 
-- Ubuntu (v 22) ([Download](https://apps.microsoft.com/store/detail/ubuntu-22041-lts/9PN20MSR04DW?hl=uk-ua&gl=ua&rtc=1))
+- ([Ubuntu app](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#ubuntu-terminal))
+- ([LFTP](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#lftp))
+- ([NodeJS](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#nodejs))
+- ([Yarn](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#yarn))
+- ([PHP 7.4](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#php-7.4))
+- ([PHP 8.1](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#php-8.1))
+- ([Composer](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#composer))
+- ([SSHPASS](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#sshpass))
+- ([ZIP](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#zip))
 
-### Ubuntu - Required to install
+### Ubuntu terminal
 
-- LFTP (run the code below)
+- Ubuntu 22.04 ([Download](https://apps.microsoft.com/store/detail/ubuntu-22041-lts/9PN20MSR04DW?hl=uk-ua&gl=ua&rtc=1))
+
+### LFTP
 
 ```bash
-sudo apt-get update -y
+sudo apt update
 ```
 
 ```bash
-sudo apt-get install -y lftp
+sudo apt -y install lftp
 ```
 
-_For more instructions follow the [link](https://zoomadmin.com/HowToInstall/UbuntuPackage/lftp)_
+_For more instructions follow the [link](https://installati.one/install-lftp-ubuntu-22-04/)_
 
-- NodeJS (run the code below)
+### NodeJS
 
 ```bash
-sudo apt-get update
+sudo apt update
 ```
 
 ```bash
@@ -108,7 +118,7 @@ echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.co
 ```
 
 ```bash
-sudo apt-get update
+sudo apt update
 ```
 
 ```bash
@@ -121,7 +131,7 @@ node -v
 
 _For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)_
 
-- Yarn (run the code below)
+### Yarn
 
 ```bash
 sudo apt update
@@ -161,10 +171,10 @@ yarn --version
 
 _For more instructions follow the [link](https://linuxize.com/post/how-to-install-yarn-on-ubuntu-20-04/)_
 
-- PHP 7.4 (run the code below)
+### PHP 7.4
 
 ```bash
-sudo apt-get update
+sudo apt update
 ```
 
 ```bash
@@ -176,7 +186,7 @@ sudo add-apt-repository ppa:ondrej/php
 ```
 
 ```bash
-sudo apt-get update
+sudo apt update
 ```
 
 ```bash
@@ -193,7 +203,27 @@ php -v
 
 _For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-php-7-4-and-set-up-a-local-development-environment-on-ubuntu-20-04)_
 
-- Composer (run the code below)
+### PHP 8.1
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install --no-install-recommends php8.1
+```
+
+```bash
+sudo apt-get install -y php8.1-cli php8.1-common php8.1-mysql php8.1-zip php8.1-gd php8.1-mbstring php8.1-curl php8.1-xml php8.1-bcmath
+```
+
+```bash
+php -v
+```
+
+_For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-php-8-1-and-set-up-a-local-development-environment-on-ubuntu-22-04)_
+
+### Composer
 
 ```bash
 sudo apt update
@@ -221,7 +251,17 @@ composer --version
 
 _For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04)_
 
-- ZIP (run the code below)
+### SSHPASS
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt -y install sshpass
+```
+
+### ZIP
 
 ```bash
 sudo apt update
