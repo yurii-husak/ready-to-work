@@ -82,6 +82,8 @@ sudo apt -y install lftp
 
 _For more instructions follow the [link](https://installati.one/install-lftp-ubuntu-22-04/)_
 
+[Scroll up](#contents)
+
 ### NodeJS
 
 ```bash
@@ -131,6 +133,8 @@ node -v
 
 _For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)_
 
+[Scroll up](#contents)
+
 ### Yarn
 
 ```bash
@@ -171,6 +175,8 @@ yarn --version
 
 _For more instructions follow the [link](https://linuxize.com/post/how-to-install-yarn-on-ubuntu-20-04/)_
 
+[Scroll up](#contents)
+
 ### PHP 7.4
 
 ```bash
@@ -203,6 +209,8 @@ php -v
 
 _For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-php-7-4-and-set-up-a-local-development-environment-on-ubuntu-20-04)_
 
+[Scroll up](#contents)
+
 ### PHP 8.1
 
 ```bash
@@ -222,6 +230,8 @@ php -v
 ```
 
 _For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-php-8-1-and-set-up-a-local-development-environment-on-ubuntu-22-04)_
+
+[Scroll up](#contents)
 
 ### Composer
 
@@ -251,6 +261,8 @@ composer --version
 
 _For more instructions follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04)_
 
+[Scroll up](#contents)
+
 ### SSHPASS
 
 ```bash
@@ -270,3 +282,5 @@ sudo apt update
 ```bash
 sudo apt install zip unzip
 ```
+
+[Scroll up](#contents)
