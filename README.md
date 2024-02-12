@@ -5,13 +5,11 @@
 - Slack | ([Download](https://slack.com/downloads/windows))
 - PHPStorm | ([Download](https://www.jetbrains.com/phpstorm/download/))
 - GIT + GIT bash | ([Download](https://git-scm.com/downloads))
-- NodeJS (16.*) | ([Download](https://nodejs.org/en/blog/release/v16.16.0/)) or NVM (latest version) | ([Download](https://github.com/coreybutler/nvm-windows/releases))
+- NVM ([Instruction](https://github.com/coreybutler/nvm-windows)) | ([Download](https://github.com/coreybutler/nvm-windows/releases))
 - Yarn. Run `npm install --global yarn` in your terminal (CMD, PowerShell or Git Bash)
 - XAMPP | ([Download](https://www.apachefriends.org/download.html))
 - PHP (7.4, 8.1) | ([Download](https://windows.php.net/download/) or [Download](https://windows.php.net/downloads/releases/archives/))
 - Composer | ([Download](https://getcomposer.org/download/))
-
-_Notice:_ Instruction for NVM ([Link](https://github.com/coreybutler/nvm-windows))
 
 ## Prepare Windows
 
