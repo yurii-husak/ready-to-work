@@ -56,7 +56,7 @@ _To install PHPStorm setting go to the 'File -> Manage IDE Settings -> Import Se
 
 ### Contents
 
-- [Ubuntu app](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#ubuntu-terminal)
+- [Ubuntu app](#ubuntu-terminal)
 - [LFTP](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#lftp)
 - [NodeJS](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#nodejs)
 - [Yarn](https://github.com/yurii-husak/ready-to-work?tab=readme-ov-file#yarn)
