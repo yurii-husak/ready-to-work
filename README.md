@@ -58,10 +58,10 @@ _To install PHPStorm setting go to the 'File -> Manage IDE Settings -> Import Se
 - [LFTP](#lftp)
 - [NodeJS](#nodejs)
 - [Yarn](#yarn)
-- [PHP 7.4](#php-74)
-- [PHP 8.1](#php-81)
+- [PHP 7.4](#php-74) or [PHP 8.1](#php-81)
 - [Composer](#composer)
 - [SSHPASS](#sshpass)
+- [jq](#jq)
 - [ZIP](#zip)
 
 ### Ubuntu terminal
@@ -270,6 +270,18 @@ sudo apt update
 ```bash
 sudo apt -y install sshpass
 ```
+
+### jq
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install jq
+```
+
+[Scroll up](#contents)
 
 ### ZIP
 
