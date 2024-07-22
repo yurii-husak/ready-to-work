@@ -62,6 +62,7 @@ _To install PHPStorm setting go to the 'File -> Manage IDE Settings -> Import Se
 - [PHP 8.1](#php-81)
 - [Composer](#composer)
 - [SSHPASS](#sshpass)
+- [ZIP](#zip)
 
 ### Ubuntu terminal
 
@@ -268,6 +269,16 @@ sudo apt update
 
 ```bash
 sudo apt -y install sshpass
+```
+
+### ZIP
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install zip unzip
 ```
 
 [Scroll up](#contents)
